@@ -1,0 +1,551 @@
+/* Navbar */
+.header{
+	background: rgba(0, 0, 0, 0);
+	color: #FFFFFF;
+	position: absolute;
+	z-index:2;
+}
+
+.salud {
+	font-family: 'Cormorant Upright';
+	font-size: 32px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.dot {
+	color: #FFD700;
+	margin-right: 40px;
+	text-decoration: none;
+}
+
+.home, .menu, .about, .user {
+	font-family: 'Abhaya Libre';
+	font-size: 20px;
+	margin-right: 35px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.active {
+	text-decoration: underline;
+}
+
+.login {
+	font-family: 'Abhaya Libre';
+	font-size: 20px;
+	/*position:absolute;
+	text-align:left;
+	margin-left:730px;*/
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.home:hover, .menu:hover, .about:hover, .login:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+.salud:hover {
+	color: #ffffff;
+}
+
+/* Home */
+.title {
+	font-family:'Cormorant Upright'; 
+	color:#FFFFFF;
+	font-size: 128px;
+	text-align: center;
+}
+
+.sub-title2 {
+	font-family: 'Abhaya Libre Medium';
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #FFFFFF;
+	color: #ffffff;
+	text-decoration: none;
+	margin-right: 5px;
+}
+
+.sub-title2:hover {
+	background-color: rgba(144, 144, 144, 0.15);
+	color: #ffffff;
+	
+}
+
+/* Cart */
+.cartPage {
+	background-image: url(../../images/marble3.png);
+}
+
+/* Menu */
+/*.category {
+	font-family: 'Abhaya Libre';
+	font-size: 36px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.c1, .c2{
+	margin-right: 240px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.c3 {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.c1:hover, .c2:hover, .c3:hover {
+	text-decoration: underline;
+	color:#ffffff;
+} */
+
+
+
+.menuList {
+	z-index: 5;
+}
+
+.menuNav a {
+  position: absolute;
+  left: -140px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 180px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #000000;
+  font-family: 'Abhaya Libre';
+  border-radius: 0 5px 5px 0;
+  z-index:3;
+}
+
+.menuNav a:hover {
+  left: 0;
+}
+
+#c1 {
+  top: 180px;
+  background-color: #99ff99;
+}
+
+#c2 {
+  top: 240px;
+  background-color: #66ccff;
+}
+
+#c3 {
+  top: 300px;
+  background-color: #ff9999;
+}
+
+/*.content {
+	display: block;
+}
+
+.m1 {
+	width: 280px;
+	height: 240px;
+	float: left;
+	border-radius: 20px;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
+.m1:hover {
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.m2 {
+	width: 280px;
+	height: 240px;
+	float: center;
+	border-radius: 20px;
+}
+
+.m3 {
+	width: 280px;
+	height: 240px;
+	float: right;
+	border-radius: 20px;
+}*/
+
+.arrowMenu {
+	color: #ffffff; 
+	font-size: 50px;
+	padding: 10px;
+}
+
+.arrowMenu:hover {
+	color: #808080;
+}
+
+#imgMenu {
+	text-align: center;
+}
+
+#ketMenu {
+	padding: 10px;
+	color: #000000;
+}
+
+/*
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1; 
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+} */
+
+/* About */
+.titleAbout {
+	float: left;
+	font-family: 'Cormorant Upright';
+	font-size: 74px;
+	color: #FFFFFF;
+	z-index: 2;
+	position:absolute;
+	top: -220px;
+	left: -50px;
+}
+
+.sub-titleAbout {
+	float: left;
+	font-family: 'Amiri';
+	font-size: 30px;
+	position: absolute;
+	left: -50px;
+	top: -120px;
+}
+
+.boxAbout {
+	background-color: #ffffff;
+	float: right;
+	position: absolute;
+	width: 70%;
+	height: 900%;
+	right: -90px;
+	top: -220px;
+	color: #000000;
+}
+
+.deskripsi {
+	font-family: 'Abhaya Libre';
+	z-index:2;
+	float: center;
+}
+
+.aboutUs {
+	background-color: #000000;
+	opacity: 0.5;
+	width: 1000%;
+	height: 800%;
+	float: bottom;
+	position: absolute;
+	bottom: -300px;
+	left:-100px;
+	color: #ffffff;
+}
+
+.t1 {
+	font-family: 'Abhaya Libre';
+	font-size: 32px;
+	float: center;
+	position: absolute;
+	z-index: 5;
+	left: -50px;
+	top: 100px;
+}
+
+.img1 {
+	width: 140px;
+	height: 140px;
+	float: center;
+	position: absolute;
+	z-index: 5;
+	left: -20px;
+	top: 160px;
+	border-radius: 1000px;
+}
+
+.img2 {
+	width: 140px;
+	height: 140px;
+	float: center;
+	position: absolute;
+	z-index: 5;
+	left: 180px;
+	top: 160px;
+	border-radius: 1000px;
+}
+
+.img3 {
+	width: 140px;
+	height: 140px;
+	float: center;
+	position: absolute;
+	z-index: 5;
+	left: 380px;
+	top: 160px;
+	border-radius: 1000px;
+}
+
+.img1:hover, .img2:hover, .img3:hover{
+	opacity: 0.75;
+	cursor: pointer;
+}
+
+.t2, .t3, .t4 {
+	font-family: 'Abhaya Libre';
+	font-size: 20px;
+	float: center;
+	position: absolute;
+	z-index: 5;
+	left: 580px;
+	top: 130px;
+	text-align: left;
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+.copyright {
+	font-family: 'Abhaya Libre';
+	font-size: 20px;
+	float: center;
+	position: absolute;
+	z-index: 5;
+	left: 1040px;
+	top: 280px;
+	text-align: right;
+}
+
+/* Login */
+.loginPage {
+	background-image: url(../../images/salad2.jpg);
+}
+
+.loginPage .slide {
+    position: absolute;
+    right: -700px;
+    width: 100%;
+    height: 100%;
+    background: black;
+	opacity: 0.7;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+
+.loginPage .wrapper {
+    position: absolute;
+    overflow: hidden;
+	left: 55%;
+    width: 45%;
+    height: 100%; 
+	/*border: 1px solid black;*/
+}
+
+.loginPage .slide h1 {
+	color: #FFFFFF;
+	font-family: 'Abhaya Libre';
+	opacity: 1;
+	font-size: 60px;
+	text-align: center;
+	padding: 20px;
+}
+	
+.loginPage .slide form {
+	color: #FFFFFF;
+	text-align: left;
+	margin-left: 15%;
+	padding: 20px;
+	font-family: 'Abhaya Libre';
+}
+
+.loginPage .slide label {
+	font-size: 20px;
+}
+
+.loginPage .slide .form-group {
+	padding: 5px;
+}
+
+.loginPage .slide p {
+	margin-left: 43%;
+}
+
+.loginPage .slide .b1 {
+	margin-left: 43%;
+	margin-right: 10px;
+}
+
+/* Register */
+.registerPage {
+	background-image: url(../../images/salad4.jpg);
+}
+
+.registerPage .slide {
+    position: absolute;
+    right: -700px;
+    width: 100%;
+    height: 100%;
+    background: black;
+	opacity: 0.7;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes slide {
+    100% { right: 0; }
+}
+
+@keyframes slide {
+    100% { right: 0; }
+}
+
+.registerPage .wrapper {
+    position: absolute;
+    overflow: hidden;
+	left: 55%;
+    width: 45%;
+    height: 100%; 
+	/*border: 1px solid black;*/
+}
+
+.registerPage .slide h4 {
+	color: #FFD700;
+	font-family: 'Abhaya Libre';
+	opacity: 1;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+	
+.registerPage .slide form {
+	color: #FFFFFF;
+	text-align: left;
+	margin-left: 15%;
+	padding: 10px;
+	font-family: 'Abhaya Libre';
+}
+
+.registerPage .slide label {
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.registerPage .slide .form-group {
+	padding: 15px;
+}
+
+.registerPage td {
+	padding: 5px;
+}
+
+.registerPage .slide p {
+	margin-left: 43%;
+}
+
+.registerPage .slide .b1 {
+	margin-left: 43%;
+	margin-right: 10px;
+}
+
+/* Admin */
+.admin {
+	background-image: url(../../images/salad1.jpg);
+	z-index: 2;
+}
+
+.adminPage {
+	position: relative; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../images/salad1.jpg);
+    background-size: cover;
+}
+
+.adminPage::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.tMenu {
+	text-decoration: none;
+	color: white;
+	font-family: 'Alegreya';
+}
+
+.tMenu:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.tableSpace {
+	margin-top: 80px;
+	position: relative;
+}
+
+.tableSpace th {
+	font-family: 'Abhaya Libre';
+}
+
+.tableSpace th a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.tableSpace th a:hover {
+	color:#000000;
+}
+
+.formSpace {
+	position: relative;
+	margin-top: 90px;
+}
+
+.formSpace form {
+	font-size: 18px;
+}
+
+.formSpace a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.formSpace a:hover {
+	color: #ffffff;
+}
