@@ -1,7 +1,7 @@
 <?php 
 
 	//koneksi ke database
-	$conn = mysqli_connect("localhost", "id16382821_localhost", "KitaKentang3.", "id16382821_salud");
+	$conn = mysqli_connect("localhost", "...", "...", "...");
 
 	function query($query) {
 		global $conn;
